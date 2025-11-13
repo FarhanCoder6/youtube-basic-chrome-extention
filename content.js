@@ -259,7 +259,7 @@ function injectCustomDiv() {
     customDiv.appendChild(text);
     
 
-    // Ensure the card has relative positioning
+    
     const computedStyle = window.getComputedStyle(card);
     if (computedStyle.position === 'static' || !computedStyle.position) {
       card.style.position = 'relative';
