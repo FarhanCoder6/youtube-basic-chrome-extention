@@ -322,5 +322,3 @@ function initVideoCounter() {
 initVideoCounter();
 
 
-
-// 
